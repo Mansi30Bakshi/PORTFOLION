@@ -1,6 +1,7 @@
 section {
   padding: 2rem;
   background: #f9f9f9;
+  background: linear-gradient(to right, #e0f7ff, #ffffff);
 }
 
 h2 {

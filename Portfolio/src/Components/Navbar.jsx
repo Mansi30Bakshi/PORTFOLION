@@ -7,7 +7,8 @@ const Navbar = () => {
   return (
    <>
    <nav className="navbar">
-      <div className="logo">Mansi Bakshi</div>
+      {/* <div className="logo">Mansi Bakshi</div> */}
+      <img src='https://media1.thehungryjpeg.com/thumbs2/ori_3902465_ryqjd5rbrsvhu2sv2isourrilw45wkb0knq8j5ge_mb-monogram-logo-v5.jpg' className='logo'></img>
 
    <div className={`nav-links ${open ? 'active' : ''}`}> 
    <Link to='/' onClick = {() => setOpen(false)}>Home</Link>
