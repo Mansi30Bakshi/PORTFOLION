@@ -1,0 +1,42 @@
+.footer {
+  background-color: #0f172a;
+  color: #f8fafc;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 2rem;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: translateY(-6px) scale(1.1);
+}
+
+.leetcode {
+  color: #f89f1b;
+}
+.github {
+  color: #ffffff;
+}
+.linkedin {
+  color: #0a66c2;
+}
+.email {
+  color: #e34f4f;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
